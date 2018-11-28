@@ -1,0 +1,43 @@
+.lv-head{
+    justify-content:center;
+    border:none;
+    height:100px;
+}
+.lv-main{
+    display: flex;
+    justify-content:center;
+    .form-wrap{
+        // padding:50px;
+        h2{
+            text-align: center;
+            font-size:24px;
+            font-weight: bold;
+            line-height:60px;
+        }
+        .form-group{
+            margin: 20px 0;
+            span{
+                font-weight: bold;
+            }
+            input{
+                width:200px;
+            }
+            button{
+               text-align: center;
+
+            }
+            
+        }
+        .form-center{
+            text-align: right;
+            .btn{
+                width:85px;
+                height:32px;
+            }
+            a{
+                font-size:12px;
+            }
+        }
+    }
+
+}

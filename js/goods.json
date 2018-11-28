@@ -1,0 +1,162 @@
+[
+    {
+        "pid": 1,
+        "src": "phone1.jpg",
+        "pname": "小米8青春版",
+        "pbrand": "小米",
+        "price": 1399,
+        "secondhand": 500
+    },
+    {
+        "pid": 2,
+        "src": "phone2.jpg",
+        "pname": "华为畅享9Plus",
+        "pbrand": "华为",
+        "price": 1499,
+        "secondhand": 560
+    },
+    {
+        "pid": 3,
+        "src": "phone3.jpg",
+        "pname": "华为荣耀Magic2",
+        "pbrand": "华为",
+        "price": 4299,
+        "secondhand": 2500
+    },
+    {
+        "pid": 4,
+        "src": "phone4.jpg",
+        "pname": "小米MIX3",
+        "pbrand": "小米",
+        "price": 3498,
+        "secondhand": 1900
+    },
+    {
+        "pid": 5,
+        "src": "phone5.jpg",
+        "pname": "vivoX23幻彩版",
+        "pbrand": "vivo",
+        "price": 2798,
+        "secondhand": 1000
+    },
+    {
+        "pid": 6,
+        "src": "phone6.jpg",
+        "pname": "荣耀10青春版",
+        "pbrand": "华为",
+        "price": 1399,
+        "secondhand": 500
+    },
+    {
+        "pid": 7,
+        "src": "phone7.jpg",
+        "pname": "vivoZ1青春版",
+        "pbrand": "vivo",
+        "price": 1098,
+        "secondhand": 340
+    },
+    {
+        "pid": 8,
+        "src": "phone8.jpg",
+        "pname": "iPhone8Plus 256G",
+        "pbrand": "苹果",
+        "price": 6888,
+        "secondhand": 5100
+    },
+    {
+        "pid": 9,
+        "src": "phone9.jpg",
+        "pname": "红米5A",
+        "pbrand": "小米",
+        "price": 599,
+        "secondhand": 180
+    },
+    {
+        "pid": 10,
+        "src": "phone10.jpg",
+        "pname": "华为Mate20X",
+        "pbrand": "华为",
+        "price": 4999,
+        "secondhand": 2800
+    },
+    {
+        "pid": 11,
+        "src": "phone11.jpg",
+        "pname": "小米MIX2S",
+        "pbrand": "小米",
+        "price": 3299,
+        "secondhand": 1500
+    },
+    {
+        "pid": 12,
+        "src": "phone12.jpg",
+        "pname": "iPhone X",
+        "pbrand": "苹果",
+        "price": 7099,
+        "secondhand": 5800
+    },
+    {
+        "pid": 13,
+        "src": "phone13.jpg",
+        "pname": "华为P20",
+        "pbrand": "华为",
+        "price": 3388,
+        "secondhand": 1500
+    },
+    {
+        "pid": 14,
+        "src": "phone14.jpg",
+        "pname": "华为P20 Pro",
+        "pbrand": "华为",
+        "price": 5288,
+        "secondhand": 2900
+    },
+    {
+        "pid": 15,
+        "src": "phone15.jpg",
+        "pname": "iPhone 6s Plus",
+        "pbrand": "苹果",
+        "price": 2729,
+        "secondhand": 1600
+    },
+    {
+        "pid": 16,
+        "src": "phone16.jpg",
+        "pname": "vivo Z3",
+        "pbrand": "vivo",
+        "price": 1898,
+        "secondhand": 610
+    },
+    {
+        "pid": 17,
+        "src": "phone13.jpg",
+        "pname": "OPPO R17 Pro",
+        "pbrand": "OPPO",
+        "price": 4299,
+        "secondhand": 2000
+    },
+    {
+        "pid": 18,
+        "src": "phone18.jpg",
+        "pname": "OPPO K1全面屏",
+        "pbrand": "OPPO",
+        "price": 1799,
+        "secondhand": 780
+    },
+    {
+        "pid": 19,
+        "src": "phone19.jpg",
+        "pname": "vivo Y97",
+        "pbrand": "vivo",
+        "price": 1998,
+        "secondhand": 820
+    },
+    {
+        "pid": 20,
+        "src": "phone20.jpg",
+        "pname": "iPhone Xs Max",
+        "pbrand": "苹果",
+        "price": 9599,
+        "secondhand": 8600
+    }
+]

@@ -1,0 +1,62 @@
+.lv-con{
+    .add{
+        float:left;
+        margin-bottom:20px;
+        .btn{
+            width:120px;
+            height:40px;
+            font-size:16px;
+        }
+        .add_wrap{
+            //点击显示
+            display:none;
+            border:1px solod #ccc;
+            background: #f9f9f9;
+            position: absolute;
+            top:30px;
+            padding:20px 40px;
+            left:50%;
+            margin-left:-170px;
+            h4{
+                line-height:40px;
+            }
+            .btns{
+                float:right;
+                .btn{
+                    width:90px;
+                }
+                .btn-default{
+                    margin-left:10px;
+                }
+            }
+            .form-control{
+                display:inline-block;
+                width:220px;
+            }
+            .send_img_file{
+                display:inline-block;
+                width:220px;
+                font-size:12px;
+            }
+        }
+    }
+    .table{
+        tr{
+            th,
+            td{
+                text-align: center;
+                vertical-align: middle;
+                a{
+                    color:#000;
+                }
+            }
+        }
+
+        .img_row{
+            img{
+                width:50px;
+                height:50px;
+            }
+        }
+    }
+}

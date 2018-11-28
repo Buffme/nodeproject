@@ -1,0 +1,40 @@
+.lv-head {
+  justify-content: center;
+  border: none;
+  height: 100px;
+}
+
+.lv-main {
+  display: flex;
+  justify-content: center;
+}
+.lv-main .form-wrap h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.lv-main .form-wrap .form-group {
+  margin: 20px 0;
+}
+.lv-main .form-wrap .form-group span {
+  font-weight: bold;
+}
+.lv-main .form-wrap .form-group input {
+  width: 200px;
+}
+.lv-main .form-wrap .form-group button {
+  text-align: center;
+}
+.lv-main .form-wrap .form-center {
+  text-align: right;
+}
+.lv-main .form-wrap .form-center .btn {
+  width: 85px;
+  height: 32px;
+}
+.lv-main .form-wrap .form-center a {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=login.css.map */
