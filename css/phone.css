@@ -7,7 +7,7 @@
   height: 40px;
   font-size: 16px;
 }
-.lv-con .add .add_wrap {
+.lv-con .add .wrap {
   display: none;
   border: 1px solod #ccc;
   background: #f9f9f9;
@@ -17,23 +17,23 @@
   left: 50%;
   margin-left: -170px;
 }
-.lv-con .add .add_wrap h4 {
+.lv-con .add .wrap h4 {
   line-height: 40px;
 }
-.lv-con .add .add_wrap .btns {
+.lv-con .add .wrap .btns {
   float: right;
 }
-.lv-con .add .add_wrap .btns .btn {
+.lv-con .add .wrap .btns .btn {
   width: 90px;
 }
-.lv-con .add .add_wrap .btns .btn-default {
+.lv-con .add .wrap .btns .btn-default {
   margin-left: 10px;
 }
-.lv-con .add .add_wrap .form-control {
+.lv-con .add .wrap .form-control {
   display: inline-block;
   width: 220px;
 }
-.lv-con .add .add_wrap .send_img_file {
+.lv-con .add .wrap .send_img_file {
   display: inline-block;
   width: 220px;
   font-size: 12px;

@@ -19,7 +19,7 @@
         <a href="/" class="logo">xx后台管理系统</a>
       </div>
       <div class="right">
-        <p>欢迎您 - Admin(管理员)</p>
+        <p class="user"></p>
         <button class="btn btn-default">退出</button>
       </div>
     </div>
@@ -38,15 +38,16 @@
       <div class="lv-con">
         <div class="add">
           <button class="btn btn-default">新 增</button>
-          <div class="add_wrap">
+          <div class="add_wrap wrap">
+            <!-- <form class="add_wrap" action="http://127.0.0.1:3000/api/phone/add" method="post" enctype="multipart/form-data"> -->
             <h4>新&emsp;&emsp;增</h4>
             <div class="form-group">
               名&emsp;&emsp;称：
-              <input type="text" class="form-control" placeholder="请输入手机名称">
+              <input type="text" name="name" class="form-control name" placeholder="请输入手机名称">
             </div>
             <div class="form-group">
               品&emsp;&emsp;牌：
-              <select name="brand" class="form-control">
+              <select name="brand" class="form-control brand">
                 <option value="苹果">苹果</option>
                 <option value="华为">华为</option>
                 <option value="OPPO">OPPO</option>
@@ -56,19 +57,53 @@
             </div>
             <div class="form-group">
               官方价格：
-              <input type="password" class="form-control" placeholder="请输入官方价格">
+              <input name="price" type="text" class="form-control price" placeholder="请输入官方价格">
             </div>
             <div class="form-group">
               回收价格：
-              <input type="password" class="form-control" placeholder="请输入回收价格">
+              <input name="recyclePrice" type="text" class="form-control recyclePrice" placeholder="请输入回收价格">
             </div>
             <div class="form-group">
               图&emsp;&emsp;片：
-              <input type="file" class="send_img_file">
+              <input id="send_img_file" type="file" name="file" class="send_img_file">
             </div>
             <div class="btns">
-              <button type="submit" class="btn btn-primary">确认</button>
-              <button type="submit" class="btn btn-default">取消</button>
+              <button type="submit" class="btn btn-primary confirm">确认</button>
+              <button type="submit" class="btn btn-default cancel">取消</button>
+            </div>
+
+          </div>
+          <div class="update_wrap wrap">
+            <h4>修&emsp;&emsp;改</h4>
+            <div class="form-group">
+              名&emsp;&emsp;称：
+              <input type="text" name="name" class="form-control name" placeholder="请输入手机名称">
+            </div>
+            <div class="form-group">
+              品&emsp;&emsp;牌：
+              <select name="brand" class="form-control brand">
+                <option value="苹果">苹果</option>
+                <option value="华为">华为</option>
+                <option value="OPPO">OPPO</option>
+                <option value="vivo">vivo</option>
+                <option value="小米">小米</option>
+              </select>
+            </div>
+            <div class="form-group">
+              官方价格：
+              <input name="price" type="text" class="form-control price" placeholder="请输入官方价格">
+            </div>
+            <div class="form-group">
+              回收价格：
+              <input name="recyclePrice" type="text" class="form-control recyclePrice" placeholder="请输入回收价格">
+            </div>
+            <div class="form-group">
+              图&emsp;&emsp;片：
+              <input id="resend_img_file" type="file" name="file" class="send_img_file">
+            </div>
+            <div class="btns">
+              <button type="submit" class="btn btn-primary confirm">确认</button>
+              <button type="submit" class="btn btn-default cancel">取消</button>
             </div>
 
           </div>
@@ -85,8 +120,8 @@
               <th>操作</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
+          <tbody class="list_box">
+            <!-- <tr>
               <th scope="row ">1</th>
               <td class="img_row">
                 <img src="/images/phone1.jpg" alt="">
@@ -99,74 +134,33 @@
                 <a href="#">修改</a>
                 <a href="#">删除</a>
               </td>
-            </tr>
-            <tr>
-              <th scope="row ">2</th>
-              <td class="img_row">
-                <img src="/images/phone1.jpg" alt="">
-              </td>
-              <td>小米8青春版</td>
-              <td>小米</td>
-              <td>1399</td>
-              <td>500</td>
-              <td>
-                <a href="#">修改</a>
-                <a href="#">删除</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row ">3</th>
-              <td class="img_row">
-                <img src="/images/phone1.jpg" alt="">
-              </td>
-              <td>小米8青春版</td>
-              <td>小米</td>
-              <td>1399</td>
-              <td>500</td>
-              <td>
-                <a href="#">修改</a>
-                <a href="#">删除</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row ">4</th>
-              <td class="img_row">
-                <img src="/images/phone1.jpg" alt="">
-              </td>
-              <td>小米8青春版</td>
-              <td>小米</td>
-              <td>1399</td>
-              <td>500</td>
-              <td>
-                <a href="#">修改</a>
-                <a href="#">删除</a>
-              </td>
-            </tr>
+            </tr> -->
+
           </tbody>
         </table>
         <nav>
           <ul class="pagination">
-            <li>
+            <li class="toLeft">
               <a href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
-            <li class="active">
-              <a href="#">1</a>
-            </li>
-            <li>
-              <a href="#">2</a>
-            </li>
-            <li>
-              <a href="#">3</a>
-            </li>
-            <li>
-              <a href="#">4</a>
-            </li>
-            <li>
-              <a href="#">5</a>
-            </li>
-            <li>
+            <!-- <li class="active">
+                        <a href="#">1</a>
+                      </li>
+                      <li>
+                        <a href="#">2</a>
+                      </li>
+                      <li>
+                        <a href="#">3</a>
+                      </li>
+                      <li>
+                        <a href="#">4</a>
+                      </li>
+                      <li>
+                        <a href="#">5</a>
+                      </li> -->
+            <li class="toRight">
               <a href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>
@@ -177,5 +171,8 @@
     </div>
   </div>
 </body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/phone.js"></script>
 
 </html>

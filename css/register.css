@@ -1,28 +1,50 @@
+@charset "UTF-8";
+.container {
+  border: none;
+}
+
 .lv-head {
   justify-content: center;
   border: none;
-  height: 100px; }
+  height: 100px;
+}
+.lv-head h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  font-family: "宋体";
+}
 
 .lv-main {
-  display: flex;
-  justify-content: center; }
-  .lv-main .form-wrap h2 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 60px; }
-  .lv-main .form-wrap .form-group {
-    margin: 20px 0; }
-    .lv-main .form-wrap .form-group span {
-      font-weight: bold; }
-    .lv-main .form-wrap .form-group button {
-      text-align: center; }
-  .lv-main .form-wrap .form-center {
-    text-align: center; }
-    .lv-main .form-wrap .form-center .btn {
-      width: 85px;
-      height: 32px; }
-    .lv-main .form-wrap .form-center a {
-      font-size: 12px; }
+  width: 700px;
+  height: 100%;
+  margin-left: 438px;
+}
+.lv-main .form-wrap .form-group {
+  margin: 20px 0;
+}
+.lv-main .form-wrap .form-group span {
+  font-weight: bold;
+}
+.lv-main .form-wrap .form-group .verinfo {
+  font-size: 12px;
+  font-weight: normal;
+  display: none;
+}
+.lv-main .form-wrap .form-group button {
+  text-align: center;
+}
+.lv-main .form-wrap .form-center {
+  margin-left: 72px;
+}
+.lv-main .form-wrap .form-center .btn {
+  width: 85px;
+  height: 32px;
+}
+.lv-main .form-wrap .form-center a {
+  margin-left: -8px;
+  font-size: 12px;
+}
 
 /*# sourceMappingURL=register.css.map */

@@ -1,35 +1,45 @@
+.container {
+    border: none;
+}
 .lv-head{
     justify-content:center;
     border:none;
     height:100px;
+        h2{
+        text-align: center;
+        font-size:24px;
+        font-weight: bold;
+        line-height:60px;
+        font-family: "宋体";
+    }
 }
 .lv-main{
-    display: flex;
-    justify-content:center;
+    width: 700px;
+    height: 100%;
+    margin-left: 438px;
     .form-wrap{
-        // padding:16px;
-        h2{
-            text-align: center;
-            font-size:24px;
-            font-weight: bold;
-            line-height:60px;
-        }
         .form-group{ 
             margin: 20px 0;
             span{
                 font-weight: bold;
+            }
+            .verinfo{
+                font-size:12px;
+                font-weight:normal;
+                display:none;
             }
             button{
                text-align: center;
             }  
         }
         .form-center{
-            text-align: center;
+            margin-left:72px;
             .btn{
                 width:85px;
                 height:32px;
             }
             a{
+                margin-left:-8px;
                 font-size:12px;
             }
         }
